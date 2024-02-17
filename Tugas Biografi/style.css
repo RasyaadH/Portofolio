@@ -1,0 +1,179 @@
+*,html{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(16,7,64);
+    background: linear-gradient(180deg, rgba(16,7,64,1) 0%, rgba(60,35,185,1) 55%, rgba(102,82,204,1) 100%);
+}
+/* header */
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+}
+.header p.logo {
+    font-size: 25px;
+    float: left;
+    color: black;
+    padding: 12px;
+    line-height: 25px;
+    font-family: montserratbold;
+    margin-left: 20px;
+}
+.header a {
+    float: left;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px; 
+    border-radius: 4px;
+    font-family: montserratregular;
+    margin-left: 18px;
+}
+.header-right {
+    float: right;
+    margin-right: 30px;
+}
+.header a:hover {
+    background-color: #dddd;
+}
+/* header penutup */
+
+/* Isi text */
+.text{
+    margin-right: 200px;
+    margin-left: 50px;
+    padding-bottom: 160px;
+}
+.judul{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: montserratregular;
+    margin-bottom: 18px;
+    margin-top: 50px;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+.text p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.container hr{
+    margin: 40px -100px -20px 0px;
+}
+/* Penutup Isi text */
+
+/* Image video */
+.image{
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.image img{
+    border-radius: 25px; 
+    margin-bottom: 5px;
+    border: 3px solid black;
+    transition: transform 0.5s; 
+}
+.image p{
+    font-size: 16px;
+    font-family: montserratregular;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+    margin-right: 55px;
+}
+.image img:hover{
+    border-radius: 25px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.image video{
+    border: 3px solid black; 
+}
+/* Penutup Image video */
+
+/* footer */
+.footer{
+    padding: 20px;
+    background-color: #0000009f;
+}
+.isi p.h {
+    font-size: 25px;
+    font-family: montserratbold;
+    margin: 10px 0 15px 40px;
+    color: white;
+}
+.isi p.desk{
+    font-size: 15px;
+    margin-left: 40px;
+    font-family: montserratregular;
+    margin-right: 280px;
+    line-height: 1.5;
+    text-align: justify;
+    display: flex;
+    color: white;
+}
+.isi hr{
+    margin-bottom: 30px;
+    width: 200px;
+    border: 1px solid #8791ff;
+}
+.flexin{
+    padding: 12px;
+    margin-right: 10px;
+}
+.flexin p.jundul{
+    font-size: 25px;
+    float: left;
+    font-family: montserratbold;
+    color: white;
+}
+.flexin a{
+    font-size: 22px;
+    float: left;
+    text-decoration: none;
+    font-family: montserratregular;
+    color: white;
+    margin-right: 400px;
+    line-height: 50px;
+}
+.flexin a:hover{
+    color: rgba(255, 255, 255, 0.653);
+}
+.linking p{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: montserratregular;
+    color: white;
+    margin-top: -30px;
+}
+.linking img{
+    border-radius: 12px;
+    transition: transform 0.5s;
+    margin-left: 35px;
+    object-fit: contain;
+}
+.linking .link{
+    margin-left: 5px;
+}
+/* Penutup footer */
+
+/* @media screen and (max-width: 500px) {
+    .header a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+.header-right {
+    float: none;
+}
+} */
